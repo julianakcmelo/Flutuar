@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --ff-h1: 'Dosis', sans-serif;
+  --ff-primary: 'Open Sans', sans-serif;
+
+  --tc-primary: #ECEFF2;
+  --tc-secondary: #828282;
+  --tc-tertiary: #EE24FF;
+  --tc-quaternary: #3F3D56;
+
+  --bg-all: #CDCDCD;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: var(--ff-primary);
+  margin: 0 auto;
+  height: 79rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main img {
+  margin: 6.4rem auto 3.2rem;
+}
+
+main h1 {
+  color: var(--tc-quaternary);
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-family: var(--ff-h1);
+}
+
+main h1 span {
+  color: var(--tc-tertiary);
+  font-weight: 700;
+}
+
+main p, main h2 {
+  color: var(--tc-secondary);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+}
+
+main p {
+  justify-content: center;
+  margin: 1.6rem auto 3.2rem;
+  width: 54rem;
+  text-align: center;
+}
+
+main p span {
+  color: var(--tc-quaternary);
+  font-weight: 700;
+}
+
+footer hr {
+  margin: 6.4rem auto 1.6rem;
+  border: 1px solid var(--tc-tertiary);
+  width: 39.1rem;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  place-content: center;
+  gap: 4.2rem;
+}
+
+footer nav a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 147.68%;
+  color: var(--tc-quaternary);
+
+  cursor: pointer;
+  transition: color .2s ease;
+}
+
+footer nav a:hover {
+  color: var(--tc-tertiary);
+}
+
+footer img {
+  position: absolute;
+  margin-top: 4.083rem;
+  width: 100%;
+}
